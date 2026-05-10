@@ -50,7 +50,7 @@ While you cannot "see" an electron in your kitchen, you can demonstrate the wave
 
 ### The Experiment:
 1.  Start with a relatively "wide" gap (about 0.5mm). You will see a small dot on the wall.
-2.  Slowly narrow the gap (decrease $\Delta x$).
+2.  *Slowly* narrow the gap (decrease $\Delta x$).
 3.  **The Result:** As the gap gets thinner, you might expect the dot on the wall to get thinner too. **However, once the gap reaches a certain narrowness, the light begins to spread out horizontally.**
 
 ### How this explains HUP:
