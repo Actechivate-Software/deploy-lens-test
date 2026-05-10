@@ -1,0 +1,24 @@
+name: PR Quality Gate
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  enforce-code-standards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check for 'fail checks' string
+        run: |
+          echo "Searching for restricted string: 'fail checks'..."
+          # grep -ri: recursive, case-insensitive
+          # --exclude-dir: ignore the .github folder so this workflow doesn't trip on itself
+          if grep -ri --exclude-dir=.github "fail checks" .; then
+            echo "::error file=check_results.txt,line=1::Found 'fail checks' string in the codebase. Please remove it to pass this check."
+            exit 1
+          else
+            echo "No restricted strings found. All good!"
+          fi
