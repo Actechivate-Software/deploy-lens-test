@@ -1,5 +1,3 @@
-fail checks
-
 # Brownian Motion: A Comprehensive Overview
 
 Brownian motion is the random, erratic movement of microscopic particles suspended in a liquid or a gas. It is a fundamental concept in physics, mathematics, and finance, serving as a bridge between the macroscopic world we see and the microscopic world of atoms and molecules.
