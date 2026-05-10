@@ -1,4 +1,4 @@
-fails checks
+fail checks
 
 # The Heisenberg Uncertainty Principle: An In-Depth Guide
 
