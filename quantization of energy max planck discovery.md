@@ -1,5 +1,3 @@
-fail checks
-
 # The Quantization of Energy: From Max Planck to Domestic Experiments
 
 ## 1. Introduction: The Crisis in Classical Physics
