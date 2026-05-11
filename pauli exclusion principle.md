@@ -1,5 +1,3 @@
-fail checks
-
 # The Pauli Exclusion Principle: A Comprehensive Guide
 
 ## 1. Introduction
