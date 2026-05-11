@@ -1,5 +1,3 @@
-fail checks
-
 # The Duality of Light: Einstein's Revolutionary Insight
 
 ## Introduction: The Great Paradox
