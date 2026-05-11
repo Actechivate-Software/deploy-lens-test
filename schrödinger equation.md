@@ -1,5 +1,3 @@
-Fail checks
-
 # The Schrödinger Equation: Theory and Domestic Exploration
 
 The Schrödinger Equation is the fundamental equation of quantum mechanics. It describes how the quantum state of a physical system changes over time. While the full mathematical treatment requires advanced calculus, the conceptual underpinnings and some related phenomena can be explored through simplified models and DIY experiments.
