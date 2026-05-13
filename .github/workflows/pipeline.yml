@@ -18,6 +18,9 @@ jobs:
             exit 1
           fi
 
+      - name: Artificial Demo Delay
+        run: sleep 9
+
       - name: Lint and Build
         run: echo "Building application..."
 
@@ -36,6 +39,9 @@ jobs:
             exit 1
           fi
 
+      - name: Artificial Demo Delay
+        run: sleep 9
+
       - name: Deploy to Canary
         run: echo "Deploying to Canary..."
 
@@ -52,6 +58,9 @@ jobs:
             echo "::error::Found 'fail staging' string. Aborting staging deployment."
             exit 1
           fi
+
+      - name: Artificial Demo Delay
+        run: sleep 9
 
       - name: Deploy to Staging
         run: echo "Deploying to Staging..."
@@ -71,6 +80,9 @@ jobs:
             exit 1
           fi
 
+      - name: Artificial Demo Delay
+        run: sleep 9
+
       - name: Deploy to East Coast
         run: echo "Deploying to production-east..."
 
@@ -87,6 +99,9 @@ jobs:
             echo "::error::Found 'fail west' string. Aborting West Coast rollout."
             exit 1
           fi
+
+      - name: Artificial Demo Delay
+        run: sleep 9
 
       - name: Deploy to West Coast
         run: echo "Deploying to production-west..."
