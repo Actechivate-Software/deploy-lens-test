@@ -1,5 +1,3 @@
-fail east
-
 # The Dirac Equation: Relativistic Quantum Mechanics
 
 ## 1. Introduction
