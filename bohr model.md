@@ -1,5 +1,3 @@
-fail east
-
 # The Bohr Model of the Atom: A Comprehensive Overview
 
 ## 1. Introduction
