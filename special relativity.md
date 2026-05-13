@@ -1,5 +1,3 @@
-fail east
-
 # Special Relativity: A Comprehensive Overview
 
 ## 1. Introduction
